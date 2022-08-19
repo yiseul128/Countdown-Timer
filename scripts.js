@@ -4,7 +4,7 @@ const endTime = document.querySelector(".display__end-time");
 const btns = document.querySelectorAll("[data-time]");
 
 function timer(sec){
-    //clear any existing one
+    //clear existing ones
     clearInterval(countdown);
 
     const now = Date.now();
